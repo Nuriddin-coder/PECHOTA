@@ -1,0 +1,89 @@
+.card_main__item {
+    border: 1px solid #EFF2F4;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    width: 253px;
+    height: auto;
+}
+
+.card_img {
+  width: 250px;
+  height: auto;
+  text-align: center;
+}
+
+.card_price {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.card_sale__nums {
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+  border: 1px solid #d5af86;
+}
+
+.sale_num {
+  padding: 2px;
+  background-color: #d5af86;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.sale_text {
+  color: #717171;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 130%;
+  padding-top: 4px;
+  padding-right: 5px;
+}
+
+.card_old__price {
+  color: #d5af86;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.card_sale__price {
+  color: #0e2149;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.card_main__text {
+  color: #111;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 130%;
+  padding-bottom: 15px;
+  opacity: 0.6;
+}
+
+.card_main__title {
+  color: #0e2149;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 8px;
+}
+
+.card_main__des {
+    padding-left: 15px;
+}
+
+
+.card_main__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+    margin-top: 25px;
+    margin-right: 10px;
+}

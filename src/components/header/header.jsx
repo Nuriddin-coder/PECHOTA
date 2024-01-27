@@ -50,6 +50,7 @@ export const Header = () => {
                 alt="icons"
               />
             </a>
+            <input className={HeaderStyle.heder_mb__input} type="text" />
             <a href="#">
               <img
                 className={HeaderStyle.category_search__icon}

@@ -3,6 +3,7 @@
   grid-template-columns: repeat(1, 1fr);
   gap: 20px;
   padding-top: 30px;
+  padding-bottom: 40px;
 }
 
 .categorys__mb_item__first {
@@ -77,8 +78,10 @@
   width: 127px;
 }
 
+///// for TABLET:
+
 .category_main__tb {
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   display: none;
 }
 
@@ -197,8 +200,11 @@
   width: 100%;
 }
 
+////// for DESK
+
 .category_main__desk {
     display: none;
+    padding-bottom: 40px;
 }
 
 .categorys__desk_item__eighthth {

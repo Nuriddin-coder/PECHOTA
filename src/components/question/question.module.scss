@@ -1,0 +1,127 @@
+.question {
+  background: radial-gradient(
+    247.04% 35.82% at 48.45% 106.14%,
+    #3d568a 0%,
+    #0e2149 100%
+  );
+  padding: 40px 0;
+}
+
+.quesn_input__item {
+  padding: 15px 130px 15px 18px;
+  border: none;
+  outline: none;
+  width: 310px;
+}
+
+.quesn_input {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  margin-bottom: 12px;
+}
+
+.quesn_input__item_comment {
+  padding: 15px 137px 70px 18px;
+  border: none;
+  outline: none;
+  width: 310px;
+}
+
+.quesn_main__title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.quesn_main__text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 130%;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+
+.quest_check__main {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.quesn_btn__main {
+  margin-top: 20px;
+}
+
+.quesn_des img {
+  width: 182px;
+  height: 170px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .quesn_input__item_comment {
+    width: 340px;
+    margin-top: 15px;
+    padding: 15px 137px 76px 18px;
+  }
+
+  .quesn_input__item {
+    width: 340px;
+  }
+
+  .quesn_main__input_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .quesn_main__text {
+    width: 430px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .quesn_main__des {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .quesn_input__item {
+    width: 210px;
+  }
+
+  .quesn_input__item_comment {
+    width: 210px;
+    padding: 16px 137px 72px 18px;
+    margin-top: 12px;
+  }
+  .quesn_main__text {
+    width: 269px;
+  }
+
+  .quesn_des {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .quesn_des img {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  .quesn_input__item {
+    width: 320px;
+  }
+  .quesn_input__item_comment {
+    width: 320px;
+  }
+
+  .quesn_main__input_item {
+    column-gap: 20px;
+  }
+}

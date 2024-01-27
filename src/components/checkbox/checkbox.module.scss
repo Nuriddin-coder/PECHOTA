@@ -1,0 +1,26 @@
+.input_main {
+  width: 25px;
+  height: 25px;
+}
+
+.checkbox_main {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.checkbox_main p {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 130%;
+  // margin-top: 15px;
+  opacity: 0.6;
+}
+
+
+@media screen and (min-width: 768px) {
+  .checkbox_main p {
+    margin: 0;
+  }
+}
