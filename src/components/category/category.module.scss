@@ -1,0 +1,18 @@
+.category_links {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.category__list {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+@media screen and (min-width: 950px) {
+  .category__list {
+    column-gap: 70px;
+  }
+}

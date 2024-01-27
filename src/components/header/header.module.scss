@@ -1,0 +1,141 @@
+.header_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.header_info {
+  display: flex;
+  column-gap: 15px;
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.logo {
+  width: 180px;
+  height: 45px;
+}
+
+.logo_text {
+  display: none;
+  color: #717171;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 130%;
+  width: 198px;
+}
+
+.header_star__icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 20px;
+}
+
+.header_bag__icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.header_product__main {
+  display: none;
+}
+
+.header_product {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.header_product__text {
+  color: #717171;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.header_product__num {
+  color: #0e2149;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.header_product__price {
+  color: #0e2149;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.category {
+  padding: 15px 0;
+  background-color: #0e2149;
+}
+
+.category_mb__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.category_menu__icon {
+  width: 27px;
+  height: 21px;
+}
+.category_search__icon {
+  width: 25px;
+  height: 25px;
+}
+
+.category_input__search {
+  width: 18px;
+  height: 18px;
+  margin-top: 7px;
+}
+
+.category_tab {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category_input {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: #253b6a;
+  height: 30px;
+  padding: 0 10px;
+}
+
+.category_input__item {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .header_product__main {
+    display: inline-block;
+  }
+
+  .logo_text {
+    display: inline-block;
+  }
+
+  .category_mb__main {
+    display: none;
+  }
+
+  .category_tab {
+    display: flex;
+  }
+}
